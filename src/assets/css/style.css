@@ -1,0 +1,383 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.42857143;
+  font-size: 14px;
+}
+
+
+.SantaHeading {
+  font-size: 65px;
+  font-weight: 600;
+}
+
+.container1 {
+  width: 85%;
+  margin: 0 auto;
+}
+
+@media (max-width:990px) {
+  .container1 {
+    width: 95%;
+    margin: 0 auto;
+  }
+}
+
+.Mainlayout {}
+
+.UserColumn {
+  border-radius: 30px 0 0 30px;
+  background: #F5FAFC;
+}
+
+.UserHead {
+  border-radius: 30px;
+}
+
+.UserHead h1 {
+  color: var(--mastercolor);
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.UserHead h3 {
+  font-size: 20px;
+  color: var(--masterdark);
+  font-weight: 700;
+}
+
+.UserHead .UserColumn .UserView {
+  width: 240px;
+  height: 240px;
+  object-fit: fill;
+}
+
+.UserHead .TimeRemain h5 {
+  font-size: 16px;
+  color: var(--masterdark);
+  font-weight: 400;
+}
+
+.UserHead .TimeRemain h6 {
+  font-size: 16px;
+  color: var(--masterdark);
+  font-weight: 700;
+  width: fit-content;
+}
+
+.UserHead .UserColumn .lockScreen {
+  border-radius: 28px;
+  box-shadow: 0px 4px 9.1px 0px #CBDAE0;
+}
+
+
+.UserHead .UserColumn .lockScreen h2 {
+  color: var(--masterdark);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.UserHead .UserColumn .lockScreen h4 {
+  color: var(--mastercolor);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.UserHead .UserColumn .lockScreen .lockinput {
+  max-width: 55px;
+  height: 50px;
+  outline: none;
+  border-radius: 16px;
+  font-size: 33px;
+  font-weight: 700;
+  border: 1px solid#ABABAB;
+  color: var(--masterdark);
+}
+
+.UserHead .UserColumn .lockScreen h3 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+
+.UserHead .Header {
+  background: #F7F7FC;
+  border-radius: 0 30px 0 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 100000;
+}
+
+.UserHead .headeruserimg {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+.UserHead .userNameIcon {
+  width: 14px;
+  height: 14px;
+}
+
+.UserHead .UserName {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.UserHead .OnlineIcon {
+  width: 10px;
+  height: 10px;
+  background: var(--mastercolor2);
+  border-radius: 50%;
+}
+
+.UserHead .OnlineStatus h3 {
+  color: #6E7FA9;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.UserHead .Nav-item {
+  width: 48px;
+  height: 48px;
+  background: #DCEFED;
+  border-radius: 8px;
+}
+
+
+.chatSection {
+  background: #FAFAFA;
+  /* background: rgb(45, 44, 44); */
+  border-radius: 0 30px 0 0;
+  height: calc(100vh - 140px);
+  overflow-y: auto;
+}
+
+.chatSection::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+.UserHead .MessageSendSection {
+  background: #F6F6F6;
+  border-radius: 0 0 30px;
+}
+
+.UserHead .MessageSendSection input {
+  outline: none;
+  border: none;
+  height: 45px;
+  border-radius: 24px;
+}
+
+.UserHead.MessageSendSection input::placeholder {
+  color: #8F8F8F;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.UserHead .voiceIcon {
+  font-size: 23px;
+  color: grey;
+  cursor: pointer;
+}
+
+.pauseIcon {
+  font-size: 30px;
+  color: red;
+  cursor: pointer;
+}
+
+.chatSection {
+  padding-top: 80px;
+  margin-bottom: 80px;
+}
+
+
+.chatSection .securityMessge {
+  border-radius: 12px;
+  background: #6D8E3D;
+  max-width: 60%;
+}
+
+.securityMessge p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.chatBox {
+  padding: 16px 24px;
+  border-radius: 16px 16px 0px 16px;
+  background: rgba(109, 142, 61, 0.50);
+}
+
+.chatBox h3 {
+  color: #012614;
+  font-size: 14px;
+  font-weight: 400;
+  word-break: break-all;
+  position: relative;
+  z-index: 1000;
+}
+
+.messge {
+  color: #0B3048;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.chatBox2 h3 {
+  padding: 16px 24px;
+  border-radius: 16px 16px 16px 0px;
+  background: #fff;
+  color: #012614;
+  font-weight: 400;
+  word-break: break-all;
+
+  font-size: 14px;
+  position: relative;
+  z-index: 1000;
+}
+
+.send_message_icon {
+  transform: rotate(45deg);
+  font-size: 22px;
+  color: rgba(109, 142, 61, 0.50);
+  cursor: pointer;
+}
+
+.deleteIcon {
+  font-size: 20px;
+  color: grey;
+}
+
+.Voicetimer {
+  font-size: 15px;
+  font-weight: 500;
+  /* opacity: 0;
+  transition: opacity 0.5s ease-in-out; */
+}
+
+.timer {
+  font-size: 2em;
+  margin: 20px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.timer-enter-active,
+.timer-leave-active {
+  opacity: 1;
+}
+
+/* //responsive */
+
+@media (max-width:990px) {
+  .UserHead h1 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .UserHead h3 {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .chatSection .securityMessge {
+    max-width: 100%;
+  }
+
+  .chatSection {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width:550px) {
+  .UserHead .UserColumn .UserView {
+    width: 145px;
+    height: 145px;
+  }
+
+  .wrapper {
+    /*max-width: 1440px;*/
+    margin: 0;
+    background: none;
+  }
+
+  .UserHead .UserColumn .lockScreen .lockinput {
+    max-width: 50px;
+    height: 45px;
+  }
+
+  .chatSection {
+    height: calc(100vh - 514px);
+    overflow-y: auto;
+  }
+}
+
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader-box {
+  display: flex;
+  align-items: center;
+  /* position: relative; */
+  width: 70px;
+  /* Increased box size */
+  height: 35px;
+  /* Increased box height */
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  /* Added border-radius for a slight curved border */
+  overflow: hidden;
+  /* Prevents balls from going outside the curved border */
+  box-shadow: 0 0 10px rgba(60, 58, 58, 0.2);
+  justify-content: center;
+}
+
+.loader-dot {
+  width: 8px;
+  /* Reduced ball size */
+  height: 8px;
+  /* Reduced ball size */
+  background-color: #333;
+  border-radius: 50%;
+  margin: 0 4px;
+  /* Reduced margin between balls */
+  animation: jump 0.8s infinite alternate ease-in-out;
+  /* Reduced animation duration */
+}
+
+.loader-dot:nth-child(2) {
+  animation-delay: 0.1s;
+  /* Adjusted animation delay */
+}
+
+.loader-dot:nth-child(3) {
+  animation-delay: 0.2s;
+  /* Adjusted animation delay */
+}
+
+@keyframes jump {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-6px);
+    /* Reduced jump height */
+  }
+}

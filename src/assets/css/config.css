@@ -1,0 +1,99 @@
+:root {
+          --mastercolor: #6D8E3D;
+          --mastercolor2: #128C7E;
+          --mastercolor25p:rgb(1 40 89 / 25%);
+          --masterdark:#31582F;
+          --masterdark2:#00576F;
+          --masterdark3:#0E5BA2;
+          --mastercolor2_d1:#82A81B;
+          --mastercolor25p2:rgb(26 130 226 / 25%);
+          --gray:#D1E2EC;
+          --gray1:#112A42;
+          --gray2:#F1F5F7;
+          --gray3:#D7D7D7;
+          --gray4:#363636;
+          --gray5:#f1f1f1;
+          --gray6:#E1E1E1;
+          --gray7:#8C9CA9;
+          --gray8:#e2e8f3;
+          --gray9:#212529;
+          --darkGray:#495057;
+          --dark1:1E1E1E;
+          --light:#f8f9fb;
+          --light1:#EDF1F4;
+          --light2:#F2F9FF;
+          --light3:#FCFCFC;
+          --dark75p:rgb(57 57 57 / 75%);
+          --light75p:rgb(183 183 183 / 75%);
+          --white75p:rgb(255 255 255 / 75%);
+          --white35p:rgb(255 255 255 / 35%);
+          --green1: #39970C;
+          --green2: #76FC93;
+          --black:#000;
+          --white:#fff;
+          --logo-size:95px;
+          --font-family1:'Plus Jakarta Sans', sans-serif;
+
+          --chart-success:#2EE1A1;
+          --chart-danger:#FF3B3B;
+          --chart-warning:#FFC75B;
+          --chart-primary:#00B3E3;
+          --chart-decline:#B7C700;
+          --chart-pink:#D885A3;
+          --chart-orange:#F76E11;
+          --fw_normal:200;
+          --fw_medium:300;
+          --fw_bold:400;
+          --fw_bold1:500;
+          --fw_bold2:600;
+          --fw_bold3:700;
+          --fw_bold4:800;
+
+
+      }
+      
+
+      @font-face {
+        font-family:  'Plus Jakarta Sans', sans-serif;
+        font-style: normal;
+        src: url('../fonts//Plus_Jakarta_Sans/PlusJakartaSans-ExtraLight.ttf');
+        font-weight: 200;
+      }
+      @font-face {
+        font-family:  'Plus Jakarta Sans', sans-serif;
+        font-style: normal;
+        src: url('../fonts/Plus_Jakarta_Sans/PlusJakartaSans-Light.ttf');
+        font-weight: 300;
+      }
+      @font-face {
+        font-family:  'Plus Jakarta Sans', sans-serif;
+        font-style: normal;
+        src: url('../fonts/Plus_Jakarta_Sans/PlusJakartaSans-Regular.ttf');
+        font-weight: 400;
+      }
+      @font-face {
+        font-family:  'Plus Jakarta Sans', sans-serif;
+        font-style: normal;
+        src: url('../fonts/Plus_Jakarta_Sans/PlusJakartaSans-Medium.ttf');
+        font-weight: 500;
+      }
+      @font-face {
+        font-family:  'Plus Jakarta Sans', sans-serif;
+        font-style: normal;
+        src: url('../fonts/Plus_Jakarta_Sans/PlusJakartaSans-SemiBold.ttf');
+        font-weight: 600;
+      }
+      @font-face {
+        font-family:  'Plus Jakarta Sans', sans-serif;
+        font-style: normal;
+        src: url('../fonts/Plus_Jakarta_Sans/PlusJakartaSans-Bold.ttf');
+        font-weight: 700;
+      }
+      @font-face {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-style: normal;
+        src: url('../fonts/Plus_Jakarta_Sans/PlusJakartaSans-ExtraBold.ttf');
+        font-weight: 800;
+      }
+        
+        

@@ -1,0 +1,55 @@
+#snow {
+    position: fixed;
+    display: block;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    will-change: opacity;
+    pointer-events: none;
+}
+.my-5{
+    z-index: 2;
+    position: relative;
+}
+
+.navbar-dark .navbar-nav .nav-link.pricing,
+.navbar-dark .navbar-nav .nav-link.dropdown-toggle,
+.navbar-dark .navbar-nav .nav-link.faq {
+    color: #fff;
+    width: 130px;
+    text-align: center;
+    line-height: 50px;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../images/pricing-bg.png");
+}
+.navbar-dark .navbar-nav .nav-link.faq {
+    background-image: url("../images/faq-bg.png");
+    margin: 0 16px;
+}
+.navbar-dark .navbar-nav .nav-link.dropdown-toggle {
+    width: 168px;
+    background-image: url("../images/language-bg.png");
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px 0 21px;
+}
+.nav-link.dropdown-toggle::before {
+    content: "";
+    background: url(../images/image-4.png);
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    background-size: contain;
+}
+.navbar-dark .navbar-nav .nav-link.dropdown-toggle::after {
+    border: none;
+    background-image: url("../images/chevron-down.svg");
+    width: 24px;
+    height: 24px;
+}
